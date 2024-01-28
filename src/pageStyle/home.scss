@@ -8,5 +8,36 @@
 
     img {
         width: 100%;
+        animation: float 2s ease-in-out infinite;
+
+    }
+
+    button {
+        background: white;
+        color: black;
+        border: none;
+        width: fit-content;
+        height: fit-content;
+        word-wrap: wrap;
+        padding: 10px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+        border-radius: 12px;
+        cursor: pointer;
+
+    }
+}
+
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatey(-30px);
+    }
+
+    100% {
+        transform: translatey(0px);
     }
 }

@@ -13,9 +13,9 @@ function Header() {
                 </div>
 
 
-                <div className="logo">
-                    <h2 className='logo-coders'>{"{ Data-Structures }"}</h2>
-                </div>
+
+                <h2 className='logo-coders'>{"{ Data-Structures }"}</h2>
+
                 <div className="right-side-container">
                     <p>Guided Paths</p>
                     <button>Sighn Up </button>

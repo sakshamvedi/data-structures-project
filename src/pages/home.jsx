@@ -13,7 +13,7 @@ function Home() {
                     <button>Start Learning</button>
                 </div>
                 <div className="right-side-description">
-                    <img src={Image}></img>
+                    <img src={Image} alt='header-image'></img>
                 </div>
             </div>
         </>
